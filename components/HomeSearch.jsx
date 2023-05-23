@@ -34,8 +34,8 @@ const HomeSearch = () => {
             <input type="text" className='flex-grow focus:outline-none '  onChange={(e) => setInput(e.target.value)
             }/>
             <div className='flex space-x-4'>
-                <BsFillMicFill className="ml-3 text-lg text-gray-500" title='Search By Voice '/>
-                <AiFillCamera className="ml-3 text-lg text-gray-500" title='Search By Image'/>
+                <BsFillMicFill className="ml-3 text-lg text-gray-500 cursor-pointer" title='Search By Voice '/>
+                <AiFillCamera className="ml-3 text-lg text-gray-500 cursor-pointer" title='Search By Image'/>
             </div>
         </form>
         <div className= 'flex flex-col justify-center mt-4 space-y-2 sm:space-y-0 sm:space-x-4 sm:flex-row'>
