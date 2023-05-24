@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import PaginationButttons from './PaginationButttons'
 
 const ImageSearchResults = ({results}) => {
   return (
-    <div className='pb-24 '>
+    <div className='pb-40 mt-4 sm:pb-24'>
         <div className='grid grid-cols-1 px-3 space-x-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
             {
                 results.items.map((result) => (
@@ -21,8 +23,10 @@ const ImageSearchResults = ({results}) => {
                         </div>
                     </div>
                 ))
-
             }
+        </div>
+        <div className='ml-16 '>
+            <PaginationButttons />
         </div>
     </div>
   )
