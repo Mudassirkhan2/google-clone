@@ -1,5 +1,6 @@
 "use client"
-import React, { useState } from 'react'
+
+import  { useState } from 'react'
 import { AiFillCamera, AiOutlineSearch } from 'react-icons/ai'
 import { BsFillMicFill } from 'react-icons/bs'
 import {RxCross2} from 'react-icons/rx'
