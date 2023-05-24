@@ -7,7 +7,7 @@ import PaginationButttons from './PaginationButttons'
 
 const WebSearchResults = ({results}) => {
     return (
-    <div className='w-full px-3 pb-40 sm:p-24 sm:pl-[5%] md:pl-[14%] lg:pl-52 mx-auto'>
+    <div className='w-full px-3 pb-40 sm:pb-24 sm:pl-[5%] md:pl-[14%] lg:pl-52 mx-auto'>
         <p className='mt-3 mb-5 text-sm text-gray-600'>
             About 
             {results.searchInformation?.formattedTotalResults} results
