@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import ProviderWrapper from '@/components/ProviderWrapper'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -13,9 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.svg" sizes="any" />
       <body className={` relative min-h-screen ${inter.className}`}>
-        {children}
-        <Footer/>
+        <ProviderWrapper>
+          {children}
+          <Footer/>
+        </ProviderWrapper>
       </body>
     </html>
   )
