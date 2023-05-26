@@ -4,6 +4,19 @@
 </h1>
 <h4 align="center"> a Website  that aims to replicate the functionality and appearance of the popular search engine, Google.</h4>
 
+Desktop View
+![Screenshot 2023-05-26 154320](https://github.com/Mudassirkhan2/google-clone/assets/106579572/a57709c5-5d45-40dd-8357-b4b2d48083a0)
+
+![Screenshot 2023-05-26 154624](https://github.com/Mudassirkhan2/google-clone/assets/106579572/58c7e84b-7ebd-4439-9299-c635a7de763a)
+
+Mobile View
+
+![Screenshot 2023-05-26 154407](https://github.com/Mudassirkhan2/google-clone/assets/106579572/548e3bc5-c122-4a53-bee1-4063279d0d7a)
+
+### Links
+
+- Live Site URL: [Click Here](https://google-clone-khan.vercel.app/)
+
 ### Built with
 - [Next js 13.4](https://nextjs.org/docs) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
