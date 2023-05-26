@@ -52,7 +52,7 @@ To run this application locally, you'll need to have Node.js and npm installed o
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/HomeFinder.git
+  git clone https://github.com/your-username/google-clone.git
 ```
 Go to the project directory
 
